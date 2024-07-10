@@ -39,11 +39,13 @@
 }
   */
   /* App.cs */
+  body{
+    background-color: rgb(229, 229, 172); 
+  }
 .container { 
 	max-width: 400px; 
 	margin: 0 auto; 
 	padding: 20px;
-  background-color: rgb(229, 229, 172); 
 } 
 
 h1 { 
@@ -53,7 +55,8 @@ h1 {
 } 
 
 .input-container { 
-	margin-bottom: 10px; 
+	margin-bottom: 10px;
+  border-radius: 4px; 
 } 
 
 label { 

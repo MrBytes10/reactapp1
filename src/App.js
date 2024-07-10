@@ -88,7 +88,20 @@ function BmiCalculator() {
 					</p> 
 					<p> 
 						Result: <span className="bmi-message">{bmiMessage}</span> 
-					</p> 
+					</p>
+          <div className='explanation'>
+          <p>
+          Body Mass Index (BMI) is a person's weight in kilograms divided by the square of height in meters. A high BMI can indicate high body fatness. BMI screens for weight categories that may lead to health problems, but it does not diagnose the body fatness or health of an individual.
+          <ul> The formula to calculate BMI is: 
+            <li>BMI = Weight(kg)/(Height(m))^2 </li>
+                The category of BMI is as follows:
+            <li>Underweight: BMI less than 18.5 </li>
+            <li>Normal Weight: BMI between 18.5 and 25 </li>
+            <li>Overweight: BMI between 25 and 29.9 </li>
+            <li>Obese: BMI greater than  30 </li> 
+            </ul>
+          </p>
+          </div>
 				</div> 
 			)} 
 		</div> 
