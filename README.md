@@ -1,5 +1,6 @@
 # BMI Calculator
 
+<img src="bmicalc-DjangoAndReact.jpg">
 This is a simple BMI (Body Mass Index) Calculator built using React. The application allows users to input their height and weight, and then calculates and displays their BMI along with a message indicating the BMI category.
 
 ## Features
